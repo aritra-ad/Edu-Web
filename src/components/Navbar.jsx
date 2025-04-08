@@ -19,7 +19,7 @@ const Navbar = () => {
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-8">
-          {navLinks.map((link, index) => (
+          {navLinks.map((link) => (
             <a
               key={link.name}
               href={link.href}
